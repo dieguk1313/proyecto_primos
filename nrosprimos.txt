@@ -1,0 +1,12 @@
+int nro1 = 1;
+int nro2 = 2; 
+int nprimo = 1;
+
+boolean resp = false;
+    int temp = nro1 - 1 ;
+    int cont = 0;
+
+    for(int i=2; i<nro1;i++){
+        if( nro1 % i == 0)	
+        cont++;
+    }
