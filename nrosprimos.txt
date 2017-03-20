@@ -11,17 +11,3 @@ boolean resp = false;
         cont++;
     }
 
-if(nro1 != 1){
-    if(cont == 0){
-    System.out.print(nro1+"-");
-    nprimo++;
-    nro2 = nro2+2;
-    }
-    }else{
-    nro2 = nro2+2;
-    }	
-    nro1++;
-
-    }while(100 != nprimo);
-
-    }
